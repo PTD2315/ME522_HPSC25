@@ -10,3 +10,4 @@ def mysqrt(x):
     for k in range(kmax):
         s = 0.5 * (s + x / s)
     return s
+print("Square root of "+ x + "is: " +s)
