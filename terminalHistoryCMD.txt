@@ -1,0 +1,307 @@
+    1  ls 0l
+    2  ls -l
+    3  cat example_gdb.f90
+    4  touch example_gdb.f90
+    5  vim example_gdb.f90
+    6  gfortran −g example_gdb.f90
+    7  xcode-select --install
+    8  softwareupdate
+    9  gfortrn −g example_gdb.f90
+   10  gfortran −g example_gdb.f90
+   11  gfortran --version
+   12  gfortran --version
+   13  brew install gcc
+   14  gfortran --version
+   15  gfortran −g example_gdb.f90
+   16  ls -l
+   17  gfortran −g exercise_gdb.f90
+   18  ls
+   19  gfortran −g example_gdb.f90
+   20  vim example_gdb.f90
+   21  gortran −g example_gdb.f90
+   22  gfortran −g example_gdb.f90
+   23  gfortran -g example_gdb.f90
+   24  sudo xcode-select --reset
+   25  sudo xcode-select --reset
+   26  Av1n@5h
+   27  sudo xcode-select --reset
+   28  sudo xcode-select --switch /Library/Developer/CommandLineTools
+   29  echo $LIBRARY_PATH
+   30  echo $LD_LIBRARY_PATH
+   31  echo $LIBRARY_PATH
+   32  export LIBRARY_PATH=/usr/local/lib:/usr/lib:/lib
+   33  export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:/lib
+   34  echo $LIBRARY_PATH
+   35  echo $LD_LIBRARY_PATH
+   36  source ~/.bash_profile  # For bash users
+   37  source ~/.zshrc         # For zsh users
+   38  gfortran -g example_gdb.f90
+   39  echo $0
+   40  nano ~/.bash_profile
+   41  source ~/.bash_profile  # For bash
+   42  libtool --version
+   43  ./bootstrap
+   44  nano ~/.zshrc
+   45  echo $0
+   46  ./configure --prefix=/opt/homebrew --target=arm64-apple-darwin --enable-languages=c,c++ --with-gmp=/opt/homebrew --with-mpfr=/opt/homebrew
+   47  ls
+   48  ls autogen.sh bootstrap
+   49  ./autogen.sh
+   50  brew install autoconf automake libtool
+   51  ls
+   52  ./autogen.sh
+   53  autoconf
+   54  cd gdb-10.2
+   55  ls -l
+   56  autoconf
+   57  ./configure --prefix=/opt/homebrew --target=arm64-apple-darwin --enable-languages=c,c++ --with-gmp=/opt/homebrew --with-mpfr=/opt/homebrew
+   58  ./configure --prefix=/opt/homebrew --target=aarch64-apple-darwin --enable-languages=c,c++ --with-gmp=/opt/homebrew --with-mpfr=/opt/homebrew
+   59  sudo find / -name "configure.ac" 2>/dev/null
+   60  gdb --version
+   61  brew install gdb
+   62  gdb --version
+   63  pdb --version
+   64  python -version
+   65  python --version
+   66  python3 -c "import pdb; print('PDB is available')"
+   67  jupyter notebook
+   68  ls
+   69  ls -l
+   70  cd ..
+   71  ls -l
+   72  gdb --version
+   73  ls -l
+   74  cd Downloads/
+   75  cd Download/
+   76  cd Documents/
+   77  ls -l
+   78  cd ..
+   79  ls -l
+   80  cd PhD\ 2nd\ Sem\ /
+   81  ls -l
+   82  cd ME522_PTD2315/
+   83  ls -l
+   84  gdb --version
+   85  clear
+   86  ls -l
+   87  rm gdb-10.2.tar.xz 
+   88  ls -l
+   89  rm gdb-16.2
+   90  rm -f gdb-16.2
+   91  ls -l
+   92  jupyter notbook
+   93  jupyter notebook
+   94  python exercise_pdb.py 
+   95  jupyter notebook
+   96  python exercise_pdb.py 
+   97  jupyter notebook
+   98  python exercise_pdb.py 
+   99  jupyter notebook
+  100  python exercise_pdb.py 
+  101  jupyter notebook
+  102  python exercise_pdb.py 
+  103  jupyter notebook
+  104  python exercise_pdb.py 
+  105  jupyter notebook
+  106  python exercise_pdb.py 
+  107  pdb list
+  108  list
+  109  (Pdb) list
+  110  python exercise_pdb.py 
+  111  (Pdb) list
+  112  (Pdb)list
+  113  python exercise_pdb.py 
+  114  python exercise_pdb.py
+  115  vi exercise_pdb.py 
+  116  python exercise_pdb.py
+  117  vi exercise_pdb.py 
+  118  python exercise_pdb.py
+  119  jupyter notebook
+  120  python exercise_pdb.py
+  121  jupyter notebook
+  122  python exercise_pdb.py
+  123  (Pdb) list  # To view surrounding code
+  124  (Pdb) p s   # To print the value of `s`
+  125  (Pdb) step   # To step into the next line of code
+  126  (Pdb) continue  # To continue execution
+  127  jupyter notebook
+  128  python exercise_pdb.py
+  129  git status
+  130  git aa exercise_pdb.py
+  131  git aad exercise_pdb.py
+  132  git add exercise_pdb.py
+  133  git commit -m "pdb exercise commit"
+  134  git status
+  135  git branch
+  136  git push origin master
+  137  ls -l
+  138  cd Downloads/
+  139  cd Download/
+  140  ls -l
+  141  cd PhD\ 2nd\ Sem\ /
+  142  ls -l
+  143  cd ME522_PTD2315/
+  144  ls -l
+  145  gfortran -g example_gdb.f90
+  146  xcode-select --install
+  147  gfortran --version
+  148  ls /Library/Developer/CommandLineTools/SDKs/
+  149  export FC=gfortran
+  150  export LDFLAGS="-L$(brew --prefix gcc)/lib/gcc/current"
+  151  export CPPFLAGS="-I$(brew --prefix gcc)/include"
+  152  export LIBRARY_PATH="$(xcrun --show-sdk-path)/usr/lib"
+  153  export SDKROOT="$(xcrun --show-sdk-path)"
+  154  gfortran -g example_gdb.f90
+  155  uname -m
+  156  file $(which gfortran)
+  157  brew uninstall gcc
+  158  brew install gcc
+  159  $0
+  160  gfortran --version
+  161  arch -arm64 brew install gcc
+  162  gfortran -g example_gdb.f90
+  163  arch
+  164  which brew
+  165  export PATH="/opt/homebrew/bin:$PATH"
+  166  brew uninstall --ignore-dependencies gcc
+  167  brew remove --force gcc
+  168  file /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/libgcc_s.1.1.dylib
+  169  file /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/libgcc_s.1.1.dylib
+  170  sudo rm -rf /usr/local/Homebrew
+  171  sudo rm -rf /usr/local/Homebrew
+  172  sudo rm -rf /usr/local/bin/brew
+  173  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  174  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  175  git config --global url."https://github.com/".insteadOf git@github.com:
+  176  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  177  ls ~/.ssh/id_rsa.pub
+  178  ssh-keygen -t ed25519 -C "your-email@example.com"
+  179  ssh-keygen -t ed25519 -C "ptd2315@students.iitmandi.ac.in"
+  180  ls ~/.ssh/id_rsa.pub
+  181  pbcopy < ~/.ssh/id_ed25519.pub
+  182  ssh -T "ptd2315@students.iitmandi.ac.in"
+  183  ssh -T ptd2315@students.iitmandi.ac.in
+  184  ssh -T git@github.com
+  185  ls ~/.ssh/id_*
+  186  ssh -T git@github.com
+  187  pbcopy < ~/.ssh/id_ed25519.pub
+  188  cat ~/.ssh/id_ed25519.pub
+  189  git config --global user.name
+  190  git remote -v
+  191  git remote set-url origin git@github.com:new-username/repo-name.git
+  192  git remote set-url origin git@github.com:PTD2315/ME522_HPSC25.git
+  193  git remote -v
+  194  git remote set-url origin https://github.com/PTD2315/ME522_HPSC25.git
+  195  git remote -v
+  196  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  197  git branch
+  198  git pull origin master
+  199  pbcopy < ~/.ssh/id_ed25519.pub
+  200  git config --global user.email
+  201  eval "$(ssh-agent -s)"
+  202  ls -l
+  203  ssh-add -l
+  204  ls -al ~/.ssh
+  205  eval "$(ssh-agent -s)"
+  206  ssh-add ~/.ssh/id_rsa_ptd2315
+  207  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  208  gfortran -g example_gdb.f90
+  209  uname -m
+  210  file $(which gfortran)
+  211  brew uninstall gcc
+  212  which gfortran
+  213  brew list | grep gcc
+  214  brew uninstall gcc
+  215  rm -rf /usr/local/bin/gfortran
+  216  rm -rf /usr/local/Cellar/gcc*
+  217  rm -rf /usr/local/lib/gcc*
+  218  brew update
+  219  brew cleanup
+  220  brew cleanup
+  221  brew install gcc
+  222  which gfortran
+  223  echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+  224  source ~/.zshrc
+  225  echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.bash_profile
+  226  source ~/.bash_profile
+  227  gfortran -g example_gdb.f90
+  228  ls -l
+  229  gdb a.out
+  230  gdb a.out
+  231  gdb a.out
+  232  gdb a.out
+  233  ls
+  234  vim example_gdb.f90 
+  235  gfortran -g example_gdb.f90
+  236  gdb a.out
+  237  gdb a.out
+  238  gdb a.out
+  239  00~sudo codesign -s gdb-cert /usr/local/bin/gdb
+  240  sudo codesign -s gdb-cert /usr/local/bin/gdb
+  241  00~gdb ./a.out
+  242  gdb ./a.out
+  243  00~which gdb
+  244  which gdb
+  245  sudo codesign -s gdb-cert /opt/homebrew/bin/gdb
+  246  clear
+  247  ls -l
+  248  nano mysqrt.py 
+  249  python
+  250  python mysqrt.py 
+  251  nano mysqrt.py 
+  252  nano mysqrt.py 
+  253  python mysqrt.py 
+  254  nano mysqrt.py 
+  255  python mysqrt.py 
+  256  nano mysqrt.py 
+  257  nano mysqrt.py 
+  258  touch mysqrtplain.py
+  259  ls -l
+  260  vim mysqrtplain.py 
+  261  python mysqrtplain.py 
+  262  clear
+  263  nano mysqrtplain.py 
+  264  nano mysqrtplain.py 
+  265  python mysqrtplain.py 
+  266  print (s)
+  267  run mysqrtplain.py 
+  268  nano mysqrtplain.py 
+  269  pip install ipython
+  270  enpkg ipython
+  271  run mysqrtplain.py 
+  272  nano mysqrtplain.py 
+  273  python mysqrtplain.py 
+  274  nano mysqrtplain.py 
+  275  python mysqrtplain.py 
+  276  nano mysqrtplain.py 
+  277  python mysqrtplain.py 
+  278  nano mysqrtplain.py 
+  279  python mysqrtplain.py 
+  280  clear
+  281  git status
+  282  git add untitled1.py
+  283  git add mysqrtplain.py
+  284  git add example_gdb.f90
+  285  git add a.out
+  286  git add mysqrt.py
+  287  git status
+  288  git commit -m "another commit"
+  289  git branch
+  290  git push origin master
+  291  clear
+  292  git log
+  293  ipython
+  294  ls -l
+  295  source ~/venv/bi/activate
+  296  source ~/venv/bin/activate
+  297  source ~/venv/venv/bin/activate
+  298  source venv/bin/activate
+  299  python mysqrtplain.py 
+  300  clear
+  301  ipython
+  302  nano mysqrtplain.py 
+  303  clear
+  304  ipython
+  305  history
+  306  %history > terminalHistoryCMD.txt
+  307  history > terminalHistoryCMD.txt
